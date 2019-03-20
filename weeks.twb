@@ -1,0 +1,2004 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0213.2333                               -->
+<workbook original-version='18.1' source-build='2019.1.0 (20191.19.0213.2333)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Worksheet (socialmedia)' inline='true' name='federated.0catdvb02q3qxn1ayp4pu1a6p3ag' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='socialmedia' name='excel-direct.0zyyxya0dp1rqf18e017r12wu24c'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Ankit/Desktop/socialmedia.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0zyyxya0dp1rqf18e017r12wu24c' name='Worksheet' table='[Worksheet$]' type='table'>
+          <columns gridOrigin='A1:AW7:no:A1:AW7:0' header='yes' outcome='6'>
+            <column datatype='string' name='Social Outlet' ordinal='0' />
+            <column datatype='integer' name='JAN-wk1' ordinal='1' />
+            <column datatype='integer' name='JAN-wk2' ordinal='2' />
+            <column datatype='integer' name='JAN-wk3' ordinal='3' />
+            <column datatype='integer' name='JAN-wk4' ordinal='4' />
+            <column datatype='integer' name='FEB-wk1' ordinal='5' />
+            <column datatype='integer' name='FEB-wk2' ordinal='6' />
+            <column datatype='integer' name='FEB-wk3' ordinal='7' />
+            <column datatype='integer' name='FEB-wk4' ordinal='8' />
+            <column datatype='integer' name='MAR-wk1' ordinal='9' />
+            <column datatype='integer' name='MAR-wk2' ordinal='10' />
+            <column datatype='integer' name='MAR-wk3' ordinal='11' />
+            <column datatype='integer' name='MAR-wk4' ordinal='12' />
+            <column datatype='integer' name='APR-wk1' ordinal='13' />
+            <column datatype='integer' name='APR-wk2' ordinal='14' />
+            <column datatype='integer' name='APR-wk3' ordinal='15' />
+            <column datatype='integer' name='APR-wk4' ordinal='16' />
+            <column datatype='integer' name='MAY-wk1' ordinal='17' />
+            <column datatype='integer' name='MAY-wk2' ordinal='18' />
+            <column datatype='integer' name='MAY-wk3' ordinal='19' />
+            <column datatype='integer' name='MAY-wk4' ordinal='20' />
+            <column datatype='integer' name='JUN-wk1' ordinal='21' />
+            <column datatype='integer' name='JUN-wk2' ordinal='22' />
+            <column datatype='integer' name='JUN-wk3' ordinal='23' />
+            <column datatype='integer' name='JUN-wk4' ordinal='24' />
+            <column datatype='integer' name='JUL-wk1' ordinal='25' />
+            <column datatype='integer' name='JUL-wk2' ordinal='26' />
+            <column datatype='integer' name='JUL-wk3' ordinal='27' />
+            <column datatype='integer' name='JUL-wk4' ordinal='28' />
+            <column datatype='integer' name='AUG-wk1' ordinal='29' />
+            <column datatype='integer' name='AUG-wk2' ordinal='30' />
+            <column datatype='integer' name='AUG-wk3' ordinal='31' />
+            <column datatype='integer' name='AUG-wk4' ordinal='32' />
+            <column datatype='integer' name='SEP-wk1' ordinal='33' />
+            <column datatype='integer' name='SEP-wk2' ordinal='34' />
+            <column datatype='integer' name='SEP-wk3' ordinal='35' />
+            <column datatype='integer' name='SEP-wk4' ordinal='36' />
+            <column datatype='integer' name='OCT-wk1' ordinal='37' />
+            <column datatype='integer' name='OCT-wk2' ordinal='38' />
+            <column datatype='integer' name='OCT-wk3' ordinal='39' />
+            <column datatype='integer' name='OCT-wk4' ordinal='40' />
+            <column datatype='integer' name='NOV-wk1' ordinal='41' />
+            <column datatype='integer' name='NOV-wk2' ordinal='42' />
+            <column datatype='integer' name='NOV-wk3' ordinal='43' />
+            <column datatype='integer' name='NOV-wk4' ordinal='44' />
+            <column datatype='integer' name='DEC-wk1' ordinal='45' />
+            <column datatype='integer' name='DEC-wk2' ordinal='46' />
+            <column datatype='integer' name='DEC-wk3' ordinal='47' />
+            <column datatype='integer' name='DEC-wk4' ordinal='48' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Social Outlet</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Social Outlet]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>Social Outlet</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JAN-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JAN-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JAN-wk1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JAN-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JAN-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JAN-wk2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JAN-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JAN-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JAN-wk3</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JAN-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JAN-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JAN-wk4</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEB-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FEB-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>FEB-wk1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEB-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FEB-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>FEB-wk2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEB-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FEB-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>FEB-wk3</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FEB-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FEB-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>FEB-wk4</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAR-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAR-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAR-wk1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAR-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAR-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAR-wk2</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAR-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAR-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAR-wk3</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAR-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAR-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAR-wk4</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>APR-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[APR-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>APR-wk1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>APR-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[APR-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>APR-wk2</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>APR-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[APR-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>APR-wk3</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>APR-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[APR-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>APR-wk4</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAY-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAY-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAY-wk1</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAY-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAY-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAY-wk2</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAY-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAY-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAY-wk3</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MAY-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MAY-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>MAY-wk4</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUN-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUN-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUN-wk1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUN-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUN-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUN-wk2</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUN-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUN-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUN-wk3</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUN-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUN-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUN-wk4</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUL-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUL-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUL-wk1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUL-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUL-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUL-wk2</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUL-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUL-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUL-wk3</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JUL-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[JUL-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>JUL-wk4</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AUG-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AUG-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>AUG-wk1</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AUG-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AUG-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>AUG-wk2</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AUG-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AUG-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>AUG-wk3</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AUG-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AUG-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>AUG-wk4</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEP-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEP-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>SEP-wk1</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEP-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEP-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>SEP-wk2</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEP-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEP-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>SEP-wk3</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SEP-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SEP-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>SEP-wk4</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OCT-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OCT-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>OCT-wk1</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OCT-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OCT-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>OCT-wk2</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OCT-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OCT-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>OCT-wk3</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OCT-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OCT-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>OCT-wk4</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOV-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NOV-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>NOV-wk1</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOV-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NOV-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>NOV-wk2</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOV-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NOV-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>NOV-wk3</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NOV-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NOV-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>NOV-wk4</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEC-wk1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEC-wk1]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>DEC-wk1</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEC-wk2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEC-wk2]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>DEC-wk2</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEC-wk3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEC-wk3]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>DEC-wk3</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEC-wk4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DEC-wk4]</local-name>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias>DEC-wk4</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Worksheet]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AW7:no:A1:AW7:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[APR-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[APR-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[APR-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[APR-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AUG-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AUG-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AUG-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[AUG-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[DEC-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[DEC-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[DEC-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[DEC-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[FEB-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[FEB-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[FEB-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[FEB-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JAN-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JAN-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JAN-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JAN-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUL-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUL-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUL-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUL-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUN-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUN-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUN-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[JUN-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAR-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAR-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAR-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAR-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAY-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAY-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAY-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[MAY-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NOV-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NOV-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NOV-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[NOV-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[OCT-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[OCT-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[OCT-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[OCT-wk4]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[SEP-wk1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[SEP-wk2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[SEP-wk3]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[SEP-wk4]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Social Outlet]' role='dimension' type='nominal' />
+      <column-instance column='[Social Outlet]' derivation='Attribute' name='[attr:Social Outlet:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Social Outlet]' derivation='None' name='[none:Social Outlet:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.0857143' measure-ordering='alphabetic' measure-percentage='0.914286' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[attr:Social Outlet:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Facebook&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Twitter&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Pinterest&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LinkedIn&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;YouTube&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Google+&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Social Outlet:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Facebook&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Twitter&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Pinterest&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LinkedIn&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;YouTube&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Google+&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (socialmedia)' name='federated.0catdvb02q3qxn1ayp4pu1a6p3ag' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0catdvb02q3qxn1ayp4pu1a6p3ag'>
+            <column datatype='integer' name='[APR-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[APR-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[APR-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[APR-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AUG-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AUG-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AUG-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[AUG-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DEC-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DEC-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DEC-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[DEC-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[FEB-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[FEB-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[FEB-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[FEB-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JAN-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JAN-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JAN-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JAN-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUL-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUL-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUL-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUL-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUN-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUN-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUN-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[JUN-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAR-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAR-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAR-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAR-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAY-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAY-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAY-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[MAY-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NOV-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NOV-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NOV-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[NOV-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[OCT-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[OCT-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[OCT-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[OCT-wk4]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[SEP-wk1]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[SEP-wk2]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[SEP-wk3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[SEP-wk4]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Social Outlet]' role='dimension' type='nominal' />
+            <column-instance column='[Social Outlet]' derivation='None' name='[none:Social Outlet:nk]' pivot='key' type='nominal' />
+            <column-instance column='[APR-wk1]' derivation='Sum' name='[sum:APR-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[APR-wk2]' derivation='Sum' name='[sum:APR-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[APR-wk3]' derivation='Sum' name='[sum:APR-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[APR-wk4]' derivation='Sum' name='[sum:APR-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AUG-wk1]' derivation='Sum' name='[sum:AUG-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AUG-wk2]' derivation='Sum' name='[sum:AUG-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AUG-wk3]' derivation='Sum' name='[sum:AUG-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AUG-wk4]' derivation='Sum' name='[sum:AUG-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEC-wk1]' derivation='Sum' name='[sum:DEC-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEC-wk2]' derivation='Sum' name='[sum:DEC-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEC-wk3]' derivation='Sum' name='[sum:DEC-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DEC-wk4]' derivation='Sum' name='[sum:DEC-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB-wk1]' derivation='Sum' name='[sum:FEB-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB-wk2]' derivation='Sum' name='[sum:FEB-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB-wk3]' derivation='Sum' name='[sum:FEB-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[FEB-wk4]' derivation='Sum' name='[sum:FEB-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JAN-wk1]' derivation='Sum' name='[sum:JAN-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JAN-wk2]' derivation='Sum' name='[sum:JAN-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JAN-wk3]' derivation='Sum' name='[sum:JAN-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JAN-wk4]' derivation='Sum' name='[sum:JAN-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL-wk1]' derivation='Sum' name='[sum:JUL-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL-wk2]' derivation='Sum' name='[sum:JUL-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL-wk3]' derivation='Sum' name='[sum:JUL-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUL-wk4]' derivation='Sum' name='[sum:JUL-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN-wk1]' derivation='Sum' name='[sum:JUN-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN-wk2]' derivation='Sum' name='[sum:JUN-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN-wk3]' derivation='Sum' name='[sum:JUN-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JUN-wk4]' derivation='Sum' name='[sum:JUN-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR-wk1]' derivation='Sum' name='[sum:MAR-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR-wk2]' derivation='Sum' name='[sum:MAR-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR-wk3]' derivation='Sum' name='[sum:MAR-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAR-wk4]' derivation='Sum' name='[sum:MAR-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY-wk1]' derivation='Sum' name='[sum:MAY-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY-wk2]' derivation='Sum' name='[sum:MAY-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY-wk3]' derivation='Sum' name='[sum:MAY-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MAY-wk4]' derivation='Sum' name='[sum:MAY-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV-wk1]' derivation='Sum' name='[sum:NOV-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV-wk2]' derivation='Sum' name='[sum:NOV-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV-wk3]' derivation='Sum' name='[sum:NOV-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NOV-wk4]' derivation='Sum' name='[sum:NOV-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT-wk1]' derivation='Sum' name='[sum:OCT-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT-wk2]' derivation='Sum' name='[sum:OCT-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT-wk3]' derivation='Sum' name='[sum:OCT-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[OCT-wk4]' derivation='Sum' name='[sum:OCT-wk4:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SEP-wk1]' derivation='Sum' name='[sum:SEP-wk1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SEP-wk2]' derivation='Sum' name='[sum:SEP-wk2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SEP-wk3]' derivation='Sum' name='[sum:SEP-wk3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SEP-wk4]' derivation='Sum' name='[sum:SEP-wk4:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Facebook&quot;</bucket>
+              <bucket>&quot;Twitter&quot;</bucket>
+              <bucket>&quot;YouTube&quot;</bucket>
+              <bucket>&quot;LinkedIn&quot;</bucket>
+              <bucket>&quot;Pinterest&quot;</bucket>
+              <bucket>&quot;Google+&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='vertical-align' field='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' value='bottom' />
+            <format attr='text-align' field='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' value='left' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='11' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='12' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='13' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='14' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='15' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='16' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='17' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='18' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='19' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='20' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='21' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='22' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='23' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='24' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='25' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='26' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='27' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='28' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='29' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='30' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='31' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='32' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='33' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='34' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='35' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='36' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='37' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='38' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='39' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='40' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='41' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='42' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='43' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='44' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='45' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='46' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk2:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='47' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk3:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='48' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk4:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:APR-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:AUG-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:DEC-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:FEB-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JAN-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUL-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:JUN-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAR-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:MAY-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:NOV-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk3:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:OCT-wk4:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk1:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk2:qk] + ([federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk3:qk] + [federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[sum:SEP-wk4:qk])))))))))))))))))))))))))))))))))))))))))))))))</rows>
+        <cols>[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]</cols>
+      </table>
+      <simple-id uuid='{E5306C7C-1A32-4109-BAF5-30AE4C5FCCF3}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0catdvb02q3qxn1ayp4pu1a6p3ag].[none:Social Outlet:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{390CD05C-E3CF-4853-BFB1-8D13262F3D2B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      AAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
